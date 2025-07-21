@@ -54,4 +54,10 @@ class FrontendController extends BaseController
         return view('frontend/informacion/tarifasporservicio');
     }
 
+
+    public function informacionfinancieracontable()
+    {
+        return view('frontend/informacion/infofinancieracontable');
+    }
+
 }

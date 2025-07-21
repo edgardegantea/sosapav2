@@ -62,6 +62,9 @@
                         <li><a class="dropdown-item" href="#">SEVAC</a></li>
                         <li><a class="dropdown-item" href="#">Estructura orgánica</a></li>
                         <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('/informacion-financiera-contable'); ?>">Información Financiera Contable</a></li>
+                        <li><hr class="dropdown-divider"></li>
+
                         <li><a class="dropdown-item" href="<?php echo base_url('/marconormativo'); ?>">Marco normativo</a></li>
                         <li><a class="dropdown-item" href="<?php echo base_url('/estructuraorganica'); ?>">Estructura Orgánica</a></li>
                         <li><a class="dropdown-item" href="#">Directorio</a></li>

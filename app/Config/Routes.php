@@ -16,6 +16,9 @@ $routes->get('padronprov',  'FrontendController::padronprov');
 $routes->get('conocetumedidor', 'FrontendController::conocetumedidor');
 $routes->get('tarifasporservicio', 'FrontendController::tarifasporservicio');
 
+$routes->get('informacion-financiera-contable', 'FrontendController::informacionfinancieracontable');
+
+
 service('auth')->routes($routes);
 
 $routes->group('admin', ['filter' => 'session'], static function ($routes) {
